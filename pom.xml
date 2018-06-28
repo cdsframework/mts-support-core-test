@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.cdsframework</groupId>
     <artifactId>mts-support-core-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>mts-support-core-test</name>
     <url>http://maven.apache.org</url>
     <properties>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>org.cdsframework</groupId>
             <artifactId>mts-support-core</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -53,7 +53,7 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-            <plugin> 
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId> 
                 <artifactId>maven-surefire-plugin</artifactId> 
                 <version>2.15</version> 

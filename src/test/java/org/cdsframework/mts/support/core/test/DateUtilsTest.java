@@ -539,5 +539,13 @@ public class DateUtilsTest {
         
     }
     
+    @Test
+    public void testDateWithTime() throws ParseException {
+        Date currentDate = DateUtils.getTruncatedDate(DateUtils.getCurrentDate());
+        System.out.println(DateUtils.getTimeFromDate(currentDate));
+        System.out.println(DateUtils.isDateStartOfDay(currentDate));
+        
+    }
+
 
 }
